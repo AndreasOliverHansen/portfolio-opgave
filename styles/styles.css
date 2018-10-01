@@ -16,25 +16,26 @@ body {
 	font-size: 70px;
 }
 #logo {
-	border: solid black;
-	height: 500px;
+	height: 600px;
 	width: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: auto;	
+	padding-top: auto;
+	margin-top: -150px;
 	}
+
 .cvtext { 
 	display: inline-block;
-	padding: 30px;
-	margin-top: -70px;
-align-content: left;
-	text-align: left;
-	padding-bottom: 10px;
-	
-
+	margin-left: 350px;
+	margin-top: -120px;
+  align-content: left;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
 	
 }
+
 .tabtitles {
 		display: relative;
 	/*text-align: center;*/
@@ -42,8 +43,18 @@ align-content: left;
 	min-width: 20px;
 	/*	border: solid black;*/
 	padding: 50px;
-	margin: 50px;
 	font-size: 70px;
+	margin-top: 10px;
+	margin-left: 270px;
+}
+.history { 
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: -110px;
+  align-content: left;
+	padding: 30px;
+	font-size: 20px;
+	border: solid black;
 }
 #backstage {
 	height: 500px;
@@ -55,6 +66,19 @@ align-content: left;
 	position: relative;
 	top: -285px;
 	right: 65px;
+	
+}
+.gallery-pics {
+	display: inline-block;
+		width: 600px;
+	height: 400px;
+	border: solid black;
+	position: relative;
+	margin-left: 10px;
+	left: 20px;
+	margin: 15px;
+	align-content: center;
+	margin-right: auto;
 	
 }
 .pictures {
@@ -89,17 +113,20 @@ align-content: left;
 	margin: 15px;
 	top: -240px;
 }
-#linkcv {
+#linkcv a {
 	position: absolute;
-	top: 900px;
-	margin-left: 30px;
+	top: 925px;
+	margin-left: 35px;
+	color: black;
+   text-decoration:none;
+	
 }
 .smalllogo {
-	height: 120px;
+	height: 130px;
 	width: auto;
 position: relative;
 	left: 1720px;
-	bottom: 300px;
+	bottom: 340px;
 }
 /*.pixcontainer img:hover {
   width: 1000px;
@@ -119,6 +146,7 @@ nav a { /*påvirker linksne*/
 	color: white;
 	padding: 20px;
 	font-family: Roboto, sans-serif;
+	
 }
 nav a:hover {
 	background: #2A2929;
