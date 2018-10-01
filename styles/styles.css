@@ -2,8 +2,44 @@
 /* main portfolio style */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
 body {
 	font-family: 'Roboto', sans-serif;
 }
-
+#overskrift {
+	display: relative;
+	text-align: center;
+	align-items: center;
+	min-width: 20px;
+	/*	border: solid black;*/
+	padding: 50px;
+	margin: 50px;
+	font-size: 50px;
+}
+#logo {
+	border: solid black;
+	height: 500px;
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: auto;	
+	}
+	
+nav {/*påvirker hele vores nav content box, alt i containeren*/
+	display: flex;
+	height: 50px;
+	align-items: center; /*får teksten til at hoppe i midten af boxen*/
+	width: 100%;/* margin-top: 60px;*/
+}
+nav a { /*påvirker linksne*/
+	width: 25%;
+	background: black;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	font-family: Roboto, sans-serif;
+}
+nav a:hover {
+	background: #2A2929;
+}
