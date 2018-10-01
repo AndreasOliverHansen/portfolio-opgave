@@ -13,7 +13,7 @@ body {
 	/*	border: solid black;*/
 	padding: 50px;
 	margin: 50px;
-	font-size: 50px;
+	font-size: 70px;
 }
 #logo {
 	border: solid black;
@@ -24,7 +24,87 @@ body {
 	margin-right: auto;
 	padding-top: auto;	
 	}
+.cvtext { 
+	display: inline-block;
+	padding: 30px;
+	margin-top: -70px;
+align-content: left;
+	text-align: left;
+	padding-bottom: 10px;
 	
+
+	
+}
+.tabtitles {
+		display: relative;
+	/*text-align: center;*/
+	align-items: center;
+	min-width: 20px;
+	/*	border: solid black;*/
+	padding: 50px;
+	margin: 50px;
+	font-size: 70px;
+}
+#backstage {
+	height: 500px;
+	width: auto;
+	float: right;
+	border: solid black;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -285px;
+	right: 65px;
+	
+}
+.pictures {
+	display: inline-block;
+		width: 300px;
+	height: 200px;
+	border: solid black;
+	position: relative;
+	margin-left: 10px;
+	left: 20px;
+	margin: 15px;
+	}
+#lacour {
+		display: inline-block;
+		width: 300px;
+	height: 200px;
+	border: solid black;
+	position: relative;
+	margin-left: 10px;
+	left: 1050px;
+	margin: 15px;
+	top: -240px;
+	 }
+#fimbul {
+	display: inline-block;
+		width: 300px;
+	height: 200px;
+	border: solid black;
+	position: relative;
+	margin-left: 10px;
+	left: 1050px;
+	margin: 15px;
+	top: -240px;
+}
+#linkcv {
+	position: absolute;
+	top: 900px;
+	margin-left: 30px;
+}
+.smalllogo {
+	height: 120px;
+	width: auto;
+position: relative;
+	left: 1720px;
+	bottom: 300px;
+}
+/*.pixcontainer img:hover {
+  width: 1000px;
+height: 800px;}*/  
+
 nav {/*påvirker hele vores nav content box, alt i containeren*/
 	display: flex;
 	height: 50px;
